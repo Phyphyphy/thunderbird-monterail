@@ -1,5 +1,10 @@
 # thunderbird-monterail
 
+## Modifications:
+
+- Created a custom theme which tries to match colors to the [arcticicestudio/nord](https://github.com/arcticicestudio/nord) color scheme.
+- Changed the font the the google signature font [roboto](https://fonts.google.com/specimen/Roboto) (**Needs to be installed on system**)
+
 This is a set of userChrome.css files to change the look of Thunderbird, inspired by the mockup by Monterail here:
 https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22
 
@@ -23,11 +28,13 @@ In **Linux** it must be extracted in `/home/[user]/.thunderbird/[random letters 
 
 In **macOS (OSX)**, it must be extracted in `/home/[user]/Library/Thunderbird/Profiles/[random letters and numbers].default/`.
 
+**Important:** In order to get the theme to work you need to create the `chrome` folder in this directory and extract the contents of the .zip file there.
+
 If your profile is located in a different directory, you can find it by going in Thunderbird's preferences (Tools->Options->Advanced). After that, click the 'Config Editor' button, accept the warning and then search for *directory*. Your directory should be the value of the parameter *mail.server.server1.directory*. This is the path where you should extract the chrome folder.
 
-Rename the extracted *thunderbird-monterail* folder to *chrome*, edit userChrome.css to choose your theme variant, and restart thunderbird. 
+Rename the extracted *thunderbird-monterail* folder to *chrome*, edit userChrome.css to choose your theme variant, and restart thunderbird.
 
-If using the *system* variant, please make sure you uncomment the appropriate icon theme line (in userChrome.css) for your system colors (an description of each icon theme is written next to each line) 
+If using the *system* variant, please make sure you uncomment the appropriate icon theme line (in userChrome.css) for your system colors (an description of each icon theme is written next to each line)
 
 You can customise various values, including almost all colors, the fonts and some of the sizing by editing the variables in userChrome.css
 

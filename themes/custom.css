@@ -32,10 +32,12 @@
 
 :root {
   /*---- General Options ----*/
-  --dark-color: #3c3b37;
-  --dark-text-color: white;
-  --dark-white-background: white;
-  --dark-light-background: #F2F1F0;
+  --dark-color: #2E3440;
+  --dark-text-color: #ECEFF4;
+  --dark-white-background: #ECEFF4;
+  --dark-light-background: #E5E9F0;
+  --dark-mid-background: #434C5E;
+  --dark-mid-text-color: #FCFCFC;
   --dark-light-text-color: #4C4C4C;
 
   /*** Set active tab background color: ***/
@@ -43,8 +45,8 @@
 
   --menu-text-color: var(--dark-text-color);
   /*** These highlight colors are used if more specific ones aren't specified below ***/
-  --highlight-color: #F07746;
-  --highlight-text-color: var(--dark-light-text-color);
+  --highlight-color: #5E81AC;
+  --highlight-text-color: #FCFCFC;
 
   /*---- Tree Views (Folder Tree/Message List) General Options ----*/
   --tree-row-highlight-background-color: var(--highlight-color);
@@ -58,8 +60,8 @@
   --folder-tree-highlight-text-color: var(--folder-tree-text-color);
 
   /*---- Message List ----*/
-  --message-list-header-background-color: var(--dark-light-background);
-  --message-list-header-text-color: var(--dark-light-text-color);
+  --message-list-header-background-color: var(--dark-mid-background);
+  --message-list-header-text-color: var(--dark-mid-text-color);
   --message-list-background-color: var(--dark-white-background);
   --message-list-text-color: var(--dark-light-text-color);
   --message-list-row-height: 40px;
@@ -71,7 +73,7 @@
   --scrollbar-thumb-hover-color: var(--highlight-color);
 
   /*---- Message Headers (To/Subject/From etc) ----*/
-  --subject-line-font-size: 100%;
+  --subject-line-font-size: 130%;
   --headers-background-color: var(--dark-light-background);
   --headers-text-color: var(--dark-light-text-color);
 
