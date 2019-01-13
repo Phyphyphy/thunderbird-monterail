@@ -5,6 +5,8 @@
 - Created a custom theme which tries to match colors to the [arcticicestudio/nord](https://github.com/arcticicestudio/nord) color scheme.
 - Changed the font the the google signature font [roboto](https://fonts.google.com/specimen/Roboto) (**Needs to be installed on system**)
 
+## Original Instructions:
+
 This is a set of userChrome.css files to change the look of Thunderbird, inspired by the mockup by Monterail here:
 https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22
 
